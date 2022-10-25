@@ -1,0 +1,473 @@
+{
+	"info": {
+		"_postman_id": "70d6bd5d-4560-4e5d-9254-0bdead38ae5a",
+		"name": "Explorer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Address",
+			"item": [
+				{
+					"name": "Address/{address}/transactions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0x2E6CE6968F3D0409FFAB2d6527e18D523002A3B2/transactions?limit=1",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0x2E6CE6968F3D0409FFAB2d6527e18D523002A3B2",
+								"transactions"
+							],
+							"query": [
+								{
+									"key": "limit",
+									"value": "1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address/{address}/owned_tokens",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0x3ba588E2017DBE203B891F494c69f6816D4bE11e/owned_tokens",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0x3ba588E2017DBE203B891F494c69f6816D4bE11e",
+								"owned_tokens"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address/{address}/holders",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0x3ba588E2017DBE203B891F494c69f6816D4bE11e/holders",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0x3ba588E2017DBE203B891F494c69f6816D4bE11e",
+								"holders"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0xcEB6C652aE9Ec059EFED09945c30A18Ec5C98dBD",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0xcEB6C652aE9Ec059EFED09945c30A18Ec5C98dBD"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address/{address}/internal_transactions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1/internal_transactions",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1",
+								"internal_transactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address/{address}/contract",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0xfb637c0c82b7cefd44b6d5421B869aCE90D6c765/contract",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0xfb637c0c82b7cefd44b6d5421B869aCE90D6c765",
+								"contract"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address/{address}/qr",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1/qr",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1",
+								"qr"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address/{address}/tx/{nonce}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1/tx/1",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1",
+								"tx",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Address/{address}/tx/{nonce}/hash",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/address/0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1/tx/1/hash",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"address",
+								"0x818B5f8bA444336186f6A6fE63Ca0Fb032EA96c1",
+								"tx",
+								"1",
+								"hash"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Blocks",
+			"item": [
+				{
+					"name": "Blocks/{num}/transactions",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/blocks/39449/transactions",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"blocks",
+								"39449",
+								"transactions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Blocks/{hash}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/blocks/0xa19fc572df27fc206aae754333067b0a2f45c81ba59747bc1b3d83174f1f34b6",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"blocks",
+								"0xa19fc572df27fc206aae754333067b0a2f45c81ba59747bc1b3d83174f1f34b6"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Blocks/{num}",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/blocks/39449",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"blocks",
+								"39449"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Blocks",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://fastychain.com/api/blocks",
+							"protocol": "https",
+							"host": [
+								"fastychain",
+								"com"
+							],
+							"path": [
+								"api",
+								"blocks"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fastychain.com/api/stats",
+					"protocol": "https",
+					"host": [
+						"fastychain",
+						"com"
+					],
+					"path": [
+						"api",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Richlist",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fastychain.com/api/richlist?limit=10&skip",
+					"protocol": "https",
+					"host": [
+						"fastychain",
+						"com"
+					],
+					"path": [
+						"api",
+						"richlist"
+					],
+					"query": [
+						{
+							"key": "limit",
+							"value": "10",
+							"description": "amount of items in the response"
+						},
+						{
+							"key": "skip",
+							"value": null,
+							"description": "number of items to skip"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignersStats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fastychain.com/api/signers/stats",
+					"protocol": "https",
+					"host": [
+						"fastychain",
+						"com"
+					],
+					"path": [
+						"api",
+						"signers",
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Transaction/{hash}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fastychain.com/api/transaction/0x90f77d9be771b00aa2632b5f4f3a22941dc2af18d304c8b9bda4b1f2a522a638",
+					"protocol": "https",
+					"host": [
+						"fastychain",
+						"com"
+					],
+					"path": [
+						"api",
+						"transaction",
+						"0x90f77d9be771b00aa2632b5f4f3a22941dc2af18d304c8b9bda4b1f2a522a638"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SignersList",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fastychain.com/api/signers/list",
+					"protocol": "https",
+					"host": [
+						"fastychain",
+						"com"
+					],
+					"path": [
+						"api",
+						"signers",
+						"list"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Supply",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://fastychain.com/api/supply",
+					"protocol": "https",
+					"host": [
+						"fastychain",
+						"com"
+					],
+					"path": [
+						"api",
+						"supply"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Verify",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"address\": \"\",\n    \"contract_name\": \"\",\n    \"compiler_version\": \"0.5.16\",\n    \"evm_version\": \"byzantium\",\n    \"optimization\": false,\n    \"source_code\": \"\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://fastychain.com/api/verify",
+					"protocol": "https",
+					"host": [
+						"fastychain",
+						"com"
+					],
+					"path": [
+						"api",
+						"verify"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
